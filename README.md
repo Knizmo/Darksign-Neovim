@@ -16,11 +16,11 @@ Beyond being a development environment, **Darksign.nvim** is designed to become 
 
 This project follows a few simple principles:
 
-* ⚔️ Learn instead of copy.
-* 🔥 Add only what is needed.
-* 🧩 Understand every plugin before installing it.
-* 🚀 Keep the configuration modular, fast, and maintainable.
-* 🌑 Build an immersive Dark Souls-inspired editing experience.
+* ᝰ.ᐟ Learn instead of copy.
+* ᝰ.ᐟ Add only what is needed.
+* ᝰ.ᐟ Understand every plugin before installing it.
+* ᝰ.ᐟ Keep the configuration modular, fast, and maintainable.
+* ᝰ.ᐟ Build an immersive Dark Souls-inspired editing experience.
 
 ---
 
