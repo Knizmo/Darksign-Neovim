@@ -1,6 +1,6 @@
 # Darksign-Neovim
 
-> *"Bearer of the Darksign, may your editor never hollow."*
+> *"Bearer of the Darksign, may your editor never go hollow."*
 
 A handcrafted Neovim configuration forged through understanding, inspired by Dark Souls.
 
