@@ -46,11 +46,25 @@ This project follows a few simple principles:
 ├── init.lua
 ├── lazy-lock.json
 └── lua
+    ├── config
+    │   └── lazy.lua
     ├── core
+    │   ├── options.lua
+    │   ├── keymaps.lua
+    │   └── autocmds.lua
     └── plugins
+        ├── catppuccin.lua
+        └── telescope.lua
 ```
 
-As the project grows, the configuration will remain organized by separating core settings, plugins, keymaps, language support, and custom utilities.
+The configuration is organized into separate modules:
+
+* `init.lua` → The entry point that loads the configuration.
+* `config/` → Configuration for Neovim infrastructure (currently lazy.nvim).
+* `core/` → Core editor settings, keymaps, and autocommands.
+* `plugins/` → Individual plugin configurations managed by lazy.nvim.
+
+This modular structure keeps the configuration clean, maintainable, and easy to expand as Darksign.nvim grows.
 
 ---
 
