@@ -43,6 +43,7 @@ This project follows a few simple principles:
 
 ```text
 .
+├── README.md
 ├── init.lua
 ├── lazy-lock.json
 └── lua
@@ -54,7 +55,8 @@ This project follows a few simple principles:
     │   └── autocmds.lua
     └── plugins
         ├── catppuccin.lua
-        └── telescope.lua
+        ├── telescope.lua
+        └── treesitter.lua
 ```
 
 The configuration is organized into separate modules:

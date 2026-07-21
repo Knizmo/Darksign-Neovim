@@ -1,37 +1,21 @@
 return {
     {
         "nvim-treesitter/nvim-treesitter",
-        branch = "master",
+        branch = "main",
         lazy = false,
 
         build = ":TSUpdate",
 
         config = function()
-            require("nvim-treesitter.configs").setup({
-                ensure_intsalled = {
-                    "lua",
-                    "vim",
-                    "vimdoc",
-                    "bash",
-                    "c",
-                    "cpp",
-                    "python",
-                    "json",
-                    "yaml",
-                    "markdown",
-                },
+            require("nvim-treesitter").setup({
+                install_dir = vim.fn.stdpath("data") .. "/site",
+            })
 
-                hightlight = {
-                    enable = true,
-                },
-                
-                indent = {
-                    enable = true,
-                },
-
+            vim.api.nvim_create_autocmd("FileType", {
+                callback = function()
+                    pcall(vim.treesitter.start)
+                end,
             })
         end,
     },
 }
-
-
