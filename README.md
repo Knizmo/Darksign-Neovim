@@ -29,10 +29,10 @@ This project follows a few simple principles:
 * ✅ Modern Neovim installation
 * ✅ lazy.nvim plugin manager
 * ✅ Catppuccin theme
-* 🔄 Modular Lua configuration
-* ⏳ Telescope
-* ⏳ Treesitter
-* ⏳ Native LSP
+* ✅ Modular Lua configuration
+* ✅ Telescope
+* ✅ Treesitter
+* 🔄 Native LSP
 * ⏳ Autocompletion
 * ⏳ Git integration
 * ⏳ Debugging
@@ -95,8 +95,8 @@ The long-term vision is to transform this configuration into a polished Neovim s
 * [x] Configure lazy.nvim
 * [x] Install Catppuccin
 * [ ] Design a Dark Souls visual identity
-* [ ] Configure Telescope
-* [ ] Configure Treesitter
+* [x] Configure Telescope
+* [x] Configure Treesitter
 * [ ] Configure LSP
 * [ ] Configure autocompletion
 * [ ] Configure debugging
