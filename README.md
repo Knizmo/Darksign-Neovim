@@ -27,13 +27,17 @@ This project follows a few simple principles:
 ## Current Progress
 
 * ✅ Modern Neovim installation
+* ✅ GitHub repository
 * ✅ lazy.nvim plugin manager
-* ✅ Catppuccin theme
 * ✅ Modular Lua configuration
-* ✅ Telescope
-* ✅ Treesitter
-* 🔄 Native LSP
+* ✅ Catppuccin theme
+* ✅ Telescope fuzzy finder
+* ✅ Treesitter syntax highlighting
+* ✅ Mason package manager
+* ✅ Native LSP (Lua)
 * ⏳ Autocompletion
+* ⏳ Snippets
+* ⏳ Formatting
 * ⏳ Git integration
 * ⏳ Debugging
 
@@ -50,11 +54,13 @@ This project follows a few simple principles:
     ├── config
     │   └── lazy.lua
     ├── core
-    │   ├── options.lua
+    │   ├── autocmds.lua
     │   ├── keymaps.lua
-    │   └── autocmds.lua
+    │   └── options.lua
     └── plugins
         ├── catppuccin.lua
+        ├── lsp.lua
+        ├── mason.lua
         ├── telescope.lua
         └── treesitter.lua
 ```
@@ -82,6 +88,7 @@ Along the way, I aim to understand:
 * Plugin development
 * Language Server Protocol (LSP)
 * Treesitter
+* Mason
 * Terminal workflows
 * Linux development tools
 
@@ -94,18 +101,23 @@ The long-term vision is to transform this configuration into a polished Neovim s
 * [x] Install Neovim
 * [x] Configure lazy.nvim
 * [x] Install Catppuccin
-* [ ] Design a Dark Souls visual identity
 * [x] Configure Telescope
 * [x] Configure Treesitter
-* [ ] Configure LSP
+* [x] Configure Mason
+* [x] Configure Lua LSP
+* [ ] Configure C/C++ LSP
+* [ ] Configure Java LSP
+* [ ] Configure Python LSP
+* [ ] Configure PHP LSP
 * [ ] Configure autocompletion
+* [ ] Configure snippets
+* [ ] Configure formatting
 * [ ] Configure debugging
-* [ ] Git workflow improvements
-* [ ] Custom keymaps
-* [ ] Custom Lua utilities
+* [ ] Git integration
 * [ ] Dark Souls startup dashboard
 * [ ] Custom status line
-* [ ] Dark Souls icons and UI polish
+* [ ] Dark Souls icons
+* [ ] Design a complete Dark Souls visual identity
 
 ---
 
