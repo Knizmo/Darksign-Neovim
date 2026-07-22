@@ -34,9 +34,10 @@ This project follows a few simple principles:
 * ✅ Telescope fuzzy finder
 * ✅ Treesitter syntax highlighting
 * ✅ Mason package manager
-* ✅ Native LSP (Lua)
-* ⏳ Autocompletion
-* ⏳ Snippets
+* ✅ Native Lua LSP
+* ✅ Autocompletion (nvim-cmp)
+* ✅ Snippet engine (LuaSnip)
+* ⏳ Additional language servers
 * ⏳ Formatting
 * ⏳ Git integration
 * ⏳ Debugging
@@ -59,6 +60,7 @@ This project follows a few simple principles:
     │   └── options.lua
     └── plugins
         ├── catppuccin.lua
+        ├── completion.lua
         ├── lsp.lua
         ├── mason.lua
         ├── telescope.lua
@@ -87,6 +89,7 @@ Along the way, I aim to understand:
 * Neovim internals
 * Plugin development
 * Language Server Protocol (LSP)
+* autocommands engine
 * Treesitter
 * Mason
 * Terminal workflows
@@ -98,26 +101,28 @@ The long-term vision is to transform this configuration into a polished Neovim s
 
 ## Roadmap
 
-* [x] Install Neovim
-* [x] Configure lazy.nvim
-* [x] Install Catppuccin
-* [x] Configure Telescope
-* [x] Configure Treesitter
-* [x] Configure Mason
-* [x] Configure Lua LSP
-* [ ] Configure C/C++ LSP
-* [ ] Configure Java LSP
-* [ ] Configure Python LSP
-* [ ] Configure PHP LSP
-* [ ] Configure autocompletion
-* [ ] Configure snippets
-* [ ] Configure formatting
-* [ ] Configure debugging
-* [ ] Git integration
-* [ ] Dark Souls startup dashboard
-* [ ] Custom status line
-* [ ] Dark Souls icons
-* [ ] Design a complete Dark Souls visual identity
+- [x] Install Neovim
+- [x] Configure lazy.nvim
+- [x] Install Catppuccin
+- [x] Configure Telescope
+- [x] Configure Treesitter
+- [x] Configure Mason
+- [x] Configure Lua LSP
+- [x] Configure autocompletion
+- [x] Configure snippet support
+- [ ] Configure C/C++ LSP
+- [ ] Configure Java LSP
+- [ ] Configure Python LSP
+- [ ] Configure PHP LSP
+- [ ] Configure HTML/CSS/JavaScript
+- [ ] Configure JSON/YAML
+- [ ] Configure SQL
+- [ ] Configure formatting
+- [ ] Configure debugging
+- [ ] Git integration
+- [ ] Dark Souls startup dashboard
+- [ ] Custom status line
+- [ ] Dark Souls icons and UI polish
 
 ---
 
