@@ -112,7 +112,7 @@ The long-term vision is to transform this configuration into a polished Neovim s
 - [x] Configure snippet support
 - [x] Configure C/C++ LSP
 - [ ] Configure Java LSP
-- [ ] Configure Python LSP
+- [x] Configure Python LSP
 - [ ] Configure PHP LSP
 - [ ] Configure HTML/CSS/JavaScript
 - [ ] Configure JSON/YAML
