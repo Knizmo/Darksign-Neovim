@@ -110,7 +110,7 @@ The long-term vision is to transform this configuration into a polished Neovim s
 - [x] Configure Lua LSP
 - [x] Configure autocompletion
 - [x] Configure snippet support
-- [ ] Configure C/C++ LSP
+- [x] Configure C/C++ LSP
 - [ ] Configure Java LSP
 - [ ] Configure Python LSP
 - [ ] Configure PHP LSP
