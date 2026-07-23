@@ -58,6 +58,11 @@ This project follows a few simple principles:
     │   ├── autocmds.lua
     │   ├── keymaps.lua
     │   └── options.lua
+    ├── lsp
+    │   ├── init.lua
+    │   ├── lua.lua
+    │   ├── clangd.lua
+    │   └── python.lua
     └── plugins
         ├── catppuccin.lua
         ├── completion.lua
